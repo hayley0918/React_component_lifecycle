@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import './Clock.css'
 
 function HookClock(){
     const [date, setDate] = useState(new Date().toLocaleTimeString())
